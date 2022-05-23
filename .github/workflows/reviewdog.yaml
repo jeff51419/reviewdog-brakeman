@@ -16,3 +16,4 @@ jobs:
         with:
           brakeman_version: 4.8.2
           reporter: github-pr-review # Default is github-pr-check
+          github_token: ${{ secrets.TOKEN }}
